@@ -3,3 +3,39 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+}
+
+.form-control label,
+.form-control input {
+  display: block;
+  width: 100%;
+}
+
+.form-actions button,
+.btn {
+  background: #1c8cf5;
+  font: inherit;
+  border: 1px solid #1c8cf5;
+  border-radius: 4px;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  outline: none;
+}
+
+.form-actions button:hover,
+.form-actions button:active,
+.btn:hover,
+.btn:active {
+  background: #054c8d;
+  border-color: #054c8d;
+}
